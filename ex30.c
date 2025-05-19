@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // Importante para usar malloc e free
+#include <stdlib.h> 
 
 int trapping_rain_water(int* altura, int n) {
     int *esquerda = (int*)malloc(n * sizeof(int));
